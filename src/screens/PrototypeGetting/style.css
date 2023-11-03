@@ -1,0 +1,269 @@
+.prototype-getting {
+  background-color: #ffffff;
+  height: 852px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 393px;
+}
+
+.prototype-getting .header {
+  background-color: transparent;
+  height: 80px;
+  left: 19px;
+  position: absolute;
+  top: 25px;
+  width: 358px;
+}
+
+.prototype-getting .personalised {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 356px;
+}
+
+.prototype-getting .navigation-bar {
+  background-color: #d5d5d5;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 792px;
+  width: 393px;
+}
+
+.prototype-getting .overlap-group {
+  height: 55px;
+  left: 93px;
+  position: absolute;
+  top: 5px;
+  width: 298px;
+}
+
+.prototype-getting .to-do {
+  height: 54px;
+  left: 75px;
+  opacity: 0.4;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.prototype-getting .text-wrapper {
+  color: #000000b2;
+  font-family: "Krona One", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  width: 75px;
+}
+
+.prototype-getting .todo-list {
+  height: 36px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 36px;
+}
+
+.prototype-getting .to-plan {
+  height: 54px;
+  left: 138px;
+  opacity: 0.4;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.prototype-getting .calendar {
+  height: 32px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.prototype-getting .purchase {
+  height: 54px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.prototype-getting .purchase-bag {
+  height: 32px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.prototype-getting .get-around {
+  box-shadow: 0px 4px 4px #00000040;
+  height: 54px;
+  left: 213px;
+  position: absolute;
+  top: 0;
+  width: 85px;
+}
+
+.prototype-getting .div {
+  color: #000000b2;
+  font-family: "Krona One", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  width: 83px;
+}
+
+.prototype-getting .map {
+  height: 32px;
+  left: 26px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.prototype-getting .home {
+  height: 48px;
+  left: 20px;
+  position: absolute;
+  top: 5px;
+  width: 48px;
+}
+
+.prototype-getting .map-of-city {
+  height: 219px;
+  left: 19px;
+  position: absolute;
+  top: 133px;
+  width: 358px;
+}
+
+.prototype-getting .map-image {
+  height: 188px;
+  left: -4px;
+  object-fit: cover;
+  position: absolute;
+  top: 39px;
+  width: 364px;
+}
+
+.prototype-getting .text-wrapper-2 {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.prototype-getting .recommendations {
+  height: 183px;
+  left: 25px;
+  position: absolute;
+  top: 395px;
+  width: 352px;
+}
+
+.prototype-getting .recs-header {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.prototype-getting .recommendation {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 161px;
+  width: 352px;
+}
+
+.prototype-getting .overlap-group-2 {
+  height: 22px;
+  position: relative;
+  width: 350px;
+}
+
+.prototype-getting .recommendation-text {
+  color: #3366cc;
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.prototype-getting .link-out {
+  height: 16px;
+  left: 331px;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+
+.prototype-getting .overlap-wrapper {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 103px;
+  width: 352px;
+}
+
+.prototype-getting .overlap {
+  height: 44px;
+  position: relative;
+  width: 350px;
+}
+
+.prototype-getting .img {
+  height: 16px;
+  left: 145px;
+  position: absolute;
+  top: 23px;
+  width: 16px;
+}
+
+.prototype-getting .overlap-group-wrapper {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 50px;
+  width: 352px;
+}

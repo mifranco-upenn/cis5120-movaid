@@ -12,10 +12,13 @@ export const PrototypeMain = () => {
         </div>
         <div className="navigation-bar">
           <div className="overlap-group">
-            <div className="to-plan">
-              <div className="div">Plan</div>
-              <img className="calendar" alt="Calendar" src="/img/calendar.svg" />
-            </div>
+            <Link to="/plan">
+              <div className="to-plan">
+                <div className="div">Plan</div>
+                <img className="calendar" alt="Calendar" src="/img/calendar.svg" />
+              </div>
+            </Link>
+            
             <Link to="/todo">
               <div className="to-do-group">
                 <div className="div">To-do</div>
@@ -23,16 +26,24 @@ export const PrototypeMain = () => {
               </div>
             </Link>
             
-            <div className="purchase">
-              <div className="div">Purchase</div>
-              <img className="purchase-bag" alt="Purchase bag" src="/img/purchase-bag.svg" />
-            </div>
-            <div className="get-around">
-              <div className="get-around-2">Get Around</div>
-              <img className="map" alt  ="Map" src="/img/map.svg" />
-            </div>
+            <Link to="/list">
+              <div className="purchase">
+                <div className="div">Purchase</div>
+                <img className="purchase-bag" alt="Purchase bag" src="/img/purchase-bag.svg" />
+              </div>
+            </Link>
+            
+            <Link to="/city">
+              <div className="get-around">
+                <div className="get-around-2">Get Around</div>
+                <img className="map" alt  ="Map" src="/img/map.svg" />
+              </div>
+            </Link>
+            
           </div>
-          <img className="home" alt="Home" src="/img/home.svg" />
+          <Link to="/">
+            <img className="home" alt="Home" src="/img/home.svg" />
+          </Link>
         </div>
       </div>
       <div className="overlap-wrapper">

@@ -1,0 +1,676 @@
+.prototype-purchase {
+  background-color: #ffffff;
+  height: 852px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 393px;
+}
+
+.prototype-purchase .add-room-button {
+  background-color: #a7c7d7;
+  border-radius: 20px;
+  height: 45px;
+  left: 11px;
+  position: absolute;
+  top: 742px;
+  width: 371px;
+}
+
+.prototype-purchase .add-room-icon-text {
+  height: 38px;
+  left: 111px;
+  position: absolute;
+  top: 5px;
+  width: 148px;
+}
+
+.prototype-purchase .customizable-widget {
+  height: 175px;
+  left: 11px;
+  position: absolute;
+  top: 562px;
+  width: 375px;
+}
+
+.prototype-purchase .overlap-group {
+  background-color: #d5b19566;
+  border-radius: 20px;
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 29px;
+  width: 371px;
+}
+
+.prototype-purchase .checklist-items {
+  height: 111px;
+  left: 13px;
+  position: absolute;
+  top: 11px;
+  width: 302px;
+}
+
+.prototype-purchase .checklist-item {
+  height: 24px;
+  left: 151px;
+  position: absolute;
+  top: 47px;
+  width: 122px;
+}
+
+.prototype-purchase .text-wrapper {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.prototype-purchase .circle {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 20px;
+}
+
+.prototype-purchase .div {
+  height: 24px;
+  left: 151px;
+  position: absolute;
+  top: 0;
+  width: 153px;
+}
+
+.prototype-purchase .img {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 20px;
+}
+
+.prototype-purchase .checklist-item-2 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 87px;
+  width: 146px;
+}
+
+.prototype-purchase .text-wrapper-2 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.prototype-purchase .checklist-item-3 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 44px;
+  width: 79px;
+}
+
+.prototype-purchase .checklist-item-4 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 93px;
+}
+
+.prototype-purchase .view-more-button {
+  height: 20px;
+  left: 346px;
+  position: absolute;
+  top: 63px;
+  width: 20px;
+}
+
+.prototype-purchase .add-item {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 5px;
+}
+
+.prototype-purchase .text-wrapper-3 {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.prototype-purchase .overlap-wrapper {
+  height: 172px;
+  left: 11px;
+  position: absolute;
+  top: 378px;
+  width: 375px;
+}
+
+.prototype-purchase .overlap {
+  height: 172px;
+  position: relative;
+  width: 371px;
+}
+
+.prototype-purchase .overlap-2 {
+  height: 172px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 371px;
+}
+
+.prototype-purchase .widget-box {
+  background-color: #d5b19566;
+  border-radius: 20px;
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 371px;
+}
+
+.prototype-purchase .checklist-items-2 {
+  height: 111px;
+  left: 13px;
+  position: absolute;
+  top: 37px;
+  width: 290px;
+}
+
+.prototype-purchase .checklist-item-5 {
+  height: 24px;
+  left: 151px;
+  position: absolute;
+  top: 49px;
+  width: 141px;
+}
+
+.prototype-purchase .checklist-item-6 {
+  height: 24px;
+  left: 151px;
+  position: absolute;
+  top: 2px;
+  width: 119px;
+}
+
+.prototype-purchase .checklist-item-7 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 87px;
+  width: 147px;
+}
+
+.prototype-purchase .checklist-item-8 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 44px;
+  width: 124px;
+}
+
+.prototype-purchase .checklist-item-9 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.prototype-purchase .view-more-button-2 {
+  height: 20px;
+  left: 346px;
+  position: absolute;
+  top: 89px;
+  width: 20px;
+}
+
+.prototype-purchase .add-item-2 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 2px;
+}
+
+.prototype-purchase .overlap-group-wrapper {
+  height: 172px;
+  left: 11px;
+  position: absolute;
+  top: 197px;
+  width: 375px;
+}
+
+.prototype-purchase .checklist-items-3 {
+  height: 111px;
+  left: 13px;
+  position: absolute;
+  top: 37px;
+  width: 323px;
+}
+
+.prototype-purchase .checklist-item-10 {
+  height: 24px;
+  left: 151px;
+  position: absolute;
+  top: 47px;
+  width: 131px;
+}
+
+.prototype-purchase .text-wrapper-4 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.prototype-purchase .checklist-item-11 {
+  height: 24px;
+  left: 151px;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.prototype-purchase .checklist-item-12 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 87px;
+  width: 108px;
+}
+
+.prototype-purchase .text-wrapper-5 {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.prototype-purchase .checklist-item-13 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 44px;
+  width: 118px;
+}
+
+.prototype-purchase .checklist-item-14 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.prototype-purchase .text-wrapper-6 {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 21px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.prototype-purchase .header {
+  background-color: transparent;
+  height: 40px;
+  left: 43px;
+  position: absolute;
+  top: 25px;
+  width: 309px;
+}
+
+.prototype-purchase .personalised {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.prototype-purchase .navigation-bar-wrapper {
+  background-color: #d5d5d5;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 792px;
+  width: 393px;
+}
+
+.prototype-purchase .navigation-bar {
+  height: 55px;
+  left: 20px;
+  position: relative;
+  top: 5px;
+  width: 369px;
+}
+
+.prototype-purchase .overlap-3 {
+  height: 55px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 298px;
+}
+
+.prototype-purchase .to-do {
+  height: 54px;
+  left: 75px;
+  opacity: 0.4;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.prototype-purchase .text-wrapper-7 {
+  color: #000000b2;
+  font-family: "Krona One", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  width: 75px;
+}
+
+.prototype-purchase .todo-list {
+  height: 36px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 36px;
+}
+
+.prototype-purchase .to-plan {
+  height: 54px;
+  left: 138px;
+  opacity: 0.4;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.prototype-purchase .calendar {
+  height: 32px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.prototype-purchase .purchase {
+  box-shadow: 0px 4px 4px #00000040;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.prototype-purchase .purchase-bag {
+  height: 32px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.prototype-purchase .get-around {
+  height: 54px;
+  left: 213px;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 85px;
+}
+
+.prototype-purchase .get-around-2 {
+  color: #000000b2;
+  font-family: "Krona One", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  width: 83px;
+}
+
+.prototype-purchase .map {
+  height: 32px;
+  left: 26px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.prototype-purchase .home {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.prototype-purchase .budget-tracker {
+  height: 83px;
+  left: 63px;
+  position: absolute;
+  top: 90px;
+  width: 270px;
+}
+
+.prototype-purchase .text-wrapper-8 {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 268px;
+}
+
+.prototype-purchase .budget-tracker-2 {
+  height: 55px;
+  left: 1px;
+  position: absolute;
+  top: 28px;
+  width: 260px;
+}
+
+.prototype-purchase .current-level {
+  box-shadow: 0px 4px 4px #00000040;
+  height: 22px;
+  left: 111px;
+  position: absolute;
+  top: 0;
+  width: 54px;
+}
+
+.prototype-purchase .overlap-4 {
+  height: 22px;
+  position: relative;
+  width: 52px;
+}
+
+.prototype-purchase .readout-background {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 52px;
+}
+
+.prototype-purchase .overlap-group-2 {
+  height: 22px;
+  position: relative;
+}
+
+.prototype-purchase .rectangle {
+  background-color: #649865;
+  border-radius: 10px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 52px;
+}
+
+.prototype-purchase .polygon {
+  height: 4px;
+  left: 22px;
+  position: absolute;
+  top: 18px;
+  width: 7px;
+}
+
+.prototype-purchase .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Marko One", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+}
+
+.prototype-purchase .budget-slider {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+  width: 264px;
+}
+
+.prototype-purchase .overlap-5 {
+  height: 30px;
+  left: -2px;
+  position: relative;
+  top: -2px;
+  width: 262px;
+}
+
+.prototype-purchase .overlap-6 {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 236px;
+}
+
+.prototype-purchase .background-line {
+  height: 1px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 229px;
+}
+
+.prototype-purchase .foreground-bold-line {
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 145px;
+}
+
+.prototype-purchase .text-wrapper-10 {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+}
+
+.prototype-purchase .text-wrapper-11 {
+  color: #000000;
+  font-family: "Marko One", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 210px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+}
