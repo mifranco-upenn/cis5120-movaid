@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const PrototypeMain = () => {
   return (
@@ -15,17 +16,20 @@ export const PrototypeMain = () => {
               <div className="div">Plan</div>
               <img className="calendar" alt="Calendar" src="/img/calendar.svg" />
             </div>
-            <div className="to-do-group">
-              <div className="div">To-do</div>
-              <img className="todo-list" alt="Todo list" src="/img/todo-list.svg" />
-            </div>
+            <Link to="/todo">
+              <div className="to-do-group">
+                <div className="div">To-do</div>
+                <img className="todo-list" alt="Todo list" src="/img/todo-list.svg" />
+              </div>
+            </Link>
+            
             <div className="purchase">
               <div className="div">Purchase</div>
               <img className="purchase-bag" alt="Purchase bag" src="/img/purchase-bag.svg" />
             </div>
             <div className="get-around">
               <div className="get-around-2">Get Around</div>
-              <img className="map" alt="Map" src="/img/map.svg" />
+              <img className="map" alt  ="Map" src="/img/map.svg" />
             </div>
           </div>
           <img className="home" alt="Home" src="/img/home.svg" />

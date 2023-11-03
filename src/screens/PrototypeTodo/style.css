@@ -1,7 +1,10 @@
 .prototype-todo {
   background-color: #ffffff;
   height: 852px;
-  position: relative;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 393px;
 }
 

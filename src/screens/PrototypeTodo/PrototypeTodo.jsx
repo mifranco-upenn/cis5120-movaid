@@ -1,29 +1,42 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const PrototypeTodo = () => {
   return (
     <div className="prototype-todo">
       <div className="navigation-bar">
         <div className="overlap-group">
-          <div className="to-do">
-            <div className="todo-text">To-do</div>
-            <img className="todo-list" alt="Todo list" src="/img/todo-list.svg" />
-          </div>
-          <div className="to-plan">
-            <div className="text-wrapper">Plan</div>
-            <img className="calendar" alt="Calendar" src="/img/calendar.svg" />
-          </div>
-          <div className="purchase">
-            <div className="text-wrapper">Purchase</div>
-            <img className="purchase-bag" alt="Purchase bag" src="/img/purchase-bag.svg" />
-          </div>
-          <div className="get-around">
-            <div className="div">Get Around</div>
-            <img className="map" alt="Map" src="/img/map.svg" />
-          </div>
+          <Link to="/todo">
+            <div className="to-do">
+              <div className="todo-text">To-do</div>
+              <img className="todo-list" alt="Todo list" src="/img/todo-list.svg" />
+            </div>
+          </Link>
+          <Link to="/plan">
+            <div className="to-plan">
+              <div className="text-wrapper">Plan</div>
+              <img className="calendar" alt="Calendar" src="/img/calendar.svg" />
+            </div>
+          </Link>
+          
+          <Link to="/list">
+            <div className="purchase">
+              <div className="text-wrapper">Purchase</div>
+              <img className="purchase-bag" alt="Purchase bag" src="/img/purchase-bag.svg" />
+            </div>
+          </Link>
+          
+          <Link to="/city">
+            <div className="get-around">
+              <div className="div">Get Around</div>
+              <img className="map" alt="Map" src="/img/map.svg" />
+            </div>
+          </Link> 
         </div>
-        <img className="home" alt="Home" src="/img/home.svg" />
+        <Link to="/">
+          <img className="home" alt="Home" src="/img/home.svg" />
+        </Link>
       </div>
       <div className="todo-box">
         <div className="overlap">
