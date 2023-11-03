@@ -4,6 +4,7 @@ import { PrototypeMain } from "./screens/PrototypeMain";
 import { PrototypeTodo } from "./screens/PrototypeTodo";
 import { PrototypePurchase } from "./screens/PrototypePurchase"
 import { PrototypeGetting } from "./screens/PrototypeGetting"
+import { PrototypeMoveIn } from "./screens/PrototypeMoveIn"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
                 <Route path="/" element={<PrototypeMain />} />
                 <Route path="/list" element={<PrototypePurchase />} />
                 <Route path="/todo" element={<PrototypeTodo />} />
-                <Route path="/plan" element={<PrototypePurchase />} />
+                <Route path="/plan" element={<PrototypeMoveIn />} />
                 <Route path="/city" element={<PrototypeGetting />} />
             </Routes>
         </BrowserRouter>

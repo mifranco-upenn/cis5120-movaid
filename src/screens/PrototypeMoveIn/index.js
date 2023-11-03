@@ -1,0 +1,1 @@
+export { PrototypeMoveIn } from "./PrototypeMoveIn";
