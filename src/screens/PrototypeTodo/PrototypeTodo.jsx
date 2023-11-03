@@ -1,6 +1,11 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css';
+
+import { AddingNewTask } from "../AddingNewTask/AddingNewTask";
+
 
 export const PrototypeTodo = () => {
   return (
@@ -44,7 +49,10 @@ export const PrototypeTodo = () => {
             <div className="text-wrapper-2">To-do</div>
             <img className="img" alt="Todo close" src="/img/todo-close.svg" />
           </div>
-          <img className="add-todo-button" alt="Add todo button" src="/img/add-todo-button.png" />
+          <Popup trigger={<img className="add-todo-button" alt="Add todo button" src="/img/add-todo-button.png" />} modal nested>
+              <AddingNewTask />
+          </Popup>
+          
           <div className="todo">
             <div className="checkbox" />
             <p className="todo-description">Follow up with management about mail-box</p>
