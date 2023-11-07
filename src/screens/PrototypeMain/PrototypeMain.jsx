@@ -51,10 +51,13 @@ export const PrototypeMain = () => {
           <div className="widget-box-2" />
           <div className="rectangle" />
           <div className="text-wrapper">Move-in Plan</div>
-          <p className="open-full-plan">
-            <span className="span">Open full plan</span>
-            <span className="text-wrapper-2"> &gt;</span>
-          </p>
+          <Link to="/plan">
+            <p className="open-full-plan">
+              <span className="span">Open full plan</span>
+              <span className="text-wrapper-2"> &gt;</span>
+            </p>
+          </Link>
+          
           <p className="date">
             <span className="text-wrapper-3">
               Tue
@@ -90,10 +93,13 @@ export const PrototypeMain = () => {
         <div className="overlap-3">
           <div className="widget-box-3" />
           <div className="text-wrapper">To-do</div>
-          <p className="open-full-list">
-            <span className="span">Open full list</span>
-            <span className="text-wrapper-2"> &gt;</span>
-          </p>
+          <Link to="/todo">
+            <p className="open-full-list">
+              <span className="span">Open full list</span>
+              <span className="text-wrapper-2"> &gt;</span>
+            </p>
+          </Link>
+          
           <div className="checklist-item">
             <p className="p">Reach out to leasing agent regarding move-in time</p>
             <img className="img" alt="Circle" src="/img/checkbox.png" />
@@ -116,10 +122,13 @@ export const PrototypeMain = () => {
       <div className="customizable-widget-3">
         <div className="overlap-3">
           <div className="widget-box-3" />
-          <p className="open-full-list-2">
-            <span className="span">Open full list</span>
-            <span className="text-wrapper-2"> &gt;</span>
-          </p>
+          <Link to="/list">
+            <p className="open-full-list-2">
+              <span className="span">Open full list</span>
+              <span className="text-wrapper-2"> &gt;</span>
+            </p>
+          </Link>
+          
           <div className="checklist-item-4">
             <div className="text-wrapper-9">Dish Soap</div>
             <img className="circle-2" alt="Circle" src="/img/circle-1.png" />
