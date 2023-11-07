@@ -1,0 +1,1 @@
+export { AddNewRoom } from "./AddNewRoom";

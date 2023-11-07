@@ -64,8 +64,8 @@ export const PrototypeTodo = () => {
             <img className="img" alt="Todo close" src="/img/todo-close.svg" />
           </div>
 
-
-          <Popup trigger={<img className="add-todo-button" alt="Add todo button" src="/img/add-todo-button.png" />} modal nested>
+      
+          <Popup trigger={<img className="add-todo-button" alt="Add todo button" src="/img/add-todo-button.png" />} modal nested contentStyle={{width: '393px'}}>
               {/* <AddingNewTask /> */}
               {close => (<div className="adding-new-task">
               <div className="text-wrapper">Add New Task</div>
