@@ -1,20 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
+import "../AddingNewItem/style.css"
+import "../AddNewRoom/style.css"
+import "../DetailedItemView/style.css";
 import { Link } from "react-router-dom";
+import Popup from "reactjs-popup";
 
 export const PrototypePurchase = () => {
+
+  const [livingRoomItem, setLivingRoomItem] = useState('')
+  const [kitchenItem, setKitchenItem] = useState('')
+  const [bathroomItem, setBathroomItem] = useState('')
+
+  const [roomName, setRoomName] = useState('')
+
   return (
     <div className="prototype-purchase">
       <div className="add-room-button">
-        <img className="add-room-icon-text" alt="Add room icon text" src="/img/add-room-icon-text.png" />
+        <Popup trigger={<img className="add-room-icon-text" alt="Add room icon text" src="/img/add-room-icon-text.png" />} modal nested contentStyle={{width: '393px'}}>
+          {close => (
+            <div className="add-new-room">
+              <div className="add-room-button">
+                <img className="icon-text" alt="Icon text" src="/img/icon-text.png" onClick={close}/>
+              </div>
+              <div className="room-name-entry">
+                <p className="room-name">
+                  <span className="text-wrapper">Room Name </span>
+                  <span className="span">*</span>
+                </p>
+                <input className="entry-box" type="text" value={roomName} onChange={(e) => setRoomName(e.target.value)}/>
+              </div>
+              <img className="close-button" alt="Close button" src="/img/close-button.svg" onClick={close}/>
+              <div className="div">Add New Room</div>
+            </div>
+          )}
+        </Popup>
+        
       </div>
       <div className="customizable-widget">
         <div className="overlap-group">
           <div className="checklist-items">
-            <div className="checklist-item">
-              <div className="text-wrapper">Ottoman</div>
-              <img className="circle" alt="Circle" src="/img/circle.png" />
-            </div>
+            {livingRoomItem &&
+              <div className="checklist-item">
+                <div className="text-wrapper">{livingRoomItem}</div>
+                <img className="circle" alt="Circle" src="/img/circle.png" />
+              </div>
+            }
+            
             <div className="div">
               <div className="text-wrapper">Coffee Table</div>
               <img className="img" alt="Circle" src="/img/circle.png" />
@@ -34,7 +66,37 @@ export const PrototypePurchase = () => {
           </div>
           <img className="view-more-button" alt="View more button" src="/img/view-more-button-2.svg" />
         </div>
-        <div className="add-item">Add item &gt;</div>
+        <Popup trigger={<div className="add-item">Add item &gt;</div>} modal nested contentStyle={{width: '393px'}}>
+          {close => (
+            <div className="adding-new-item">
+              <div className="add-item-button">
+                <img className="icon-text" alt="Icon text" src="/img/icon-text.png" onClick={close}/>
+              </div>
+              <div className="purchase-preference">
+                <div className="text-wrapper">Purchase Preference</div>
+                <div className="overlap-group">
+                  <div className="div">Online</div>
+                  <div className="text-wrapper-2">In-Person</div>
+                  <img className="dividing-line" alt="Dividing line" src="/img/dividing-line.svg" />
+                </div>
+              </div>
+              <div className="link-to-item">
+                <div className="text-wrapper">Link to Item</div>
+                <div className="div-2" />
+              </div>
+              <div className="item-entry">
+                <p className="item">
+                  <span className="span">Item </span>
+                  <span className="text-wrapper-3">*</span>
+                </p>
+                <input className="div-2" type="text" value={livingRoomItem} onChange={(e) => setLivingRoomItem(e.target.value)}/>
+              </div>
+              <img className="close-button" alt="Close button" src="/img/close-button.svg" onClick={close}/>
+              <div className="text-wrapper-4">Add New Item</div>
+            </div>
+          )}
+        </Popup>
+        
         <div className="text-wrapper-3">Living Room</div>
       </div>
       <div className="overlap-wrapper">
@@ -42,10 +104,13 @@ export const PrototypePurchase = () => {
           <div className="overlap-2">
             <div className="widget-box" />
             <div className="checklist-items-2">
-              <div className="checklist-item-5">
-                <div className="text-wrapper">Hand Soap</div>
-                <img className="circle" alt="Circle" src="/img/circle.png" />
-              </div>
+              {bathroomItem &&
+                <div className="checklist-item-5">
+                  <div className="text-wrapper">{bathroomItem}</div>
+                  <img className="circle" alt="Circle" src="/img/circle.png" />
+                </div>
+              }
+              
               <div className="checklist-item-6">
                 <div className="text-wrapper">Toiletries</div>
                 <img className="img" alt="Circle" src="/img/circle.png" />
@@ -66,7 +131,37 @@ export const PrototypePurchase = () => {
             <img className="view-more-button-2" alt="View more button" src="/img/view-more-button-1.svg" />
             <div className="text-wrapper-3">Bathroom</div>
           </div>
-          <div className="add-item-2">Add item &gt;</div>
+          <Popup trigger={<div className="add-item-2">Add item &gt;</div>} modal nested contentStyle={{width: '393px'}}>
+            {close => (
+              <div className="adding-new-item">
+                <div className="add-item-button">
+                  <img className="icon-text" alt="Icon text" src="/img/icon-text.png" onClick={close}/>
+                </div>
+                <div className="purchase-preference">
+                  <div className="text-wrapper">Purchase Preference</div>
+                  <div className="overlap-group">
+                    <div className="div">Online</div>
+                    <div className="text-wrapper-2">In-Person</div>
+                    <img className="dividing-line" alt="Dividing line" src="/img/dividing-line.svg" />
+                  </div>
+                </div>
+                <div className="link-to-item">
+                  <div className="text-wrapper">Link to Item</div>
+                  <div className="div-2" />
+                </div>
+                <div className="item-entry">
+                  <p className="item">
+                    <span className="span">Item </span>
+                    <span className="text-wrapper-3">*</span>
+                  </p>
+                  <input className="div-2" type="text" value={bathroomItem} onChange={(e) => setBathroomItem(e.target.value)}/>
+                </div>
+                <img className="close-button" alt="Close button" src="/img/close-button.svg" onClick={close}/>
+                <div className="text-wrapper-4">Add New Item</div>
+              </div>
+            )}
+          </Popup>
+          
         </div>
       </div>
       <div className="overlap-group-wrapper">
@@ -74,16 +169,58 @@ export const PrototypePurchase = () => {
           <div className="overlap-2">
             <div className="widget-box" />
             <div className="checklist-items-3">
-              <div className="checklist-item-10">
-                <div className="text-wrapper-4">Dish Soap</div>
-                <img className="circle" alt="Circle" src="/img/circle.png" />
-              </div>
+              {kitchenItem &&
+                <div className="checklist-item-10">
+                  <div className="text-wrapper-4">{kitchenItem}</div>
+                  <img className="circle" alt="Circle" src="/img/circle.png" />
+                </div>
+              }
+              
               <div className="checklist-item-11">
                 <div className="text-wrapper-4">Pots and Pans</div>
                 <img className="img" alt="Circle" src="/img/circle.png" />
               </div>
               <div className="checklist-item-12">
-                <div className="text-wrapper-5">Blender</div>
+                <Popup trigger={<div className="text-wrapper-5">Blender</div>} modal nested contentStyle={{width: '393px'}}>
+                  {close => (
+                    <div className="detailed-item-view">
+                      <div className="update-item-button">
+                        <img className="icon-text" alt="Icon text" src="/img/icon-text.png" onClick={close}/>
+                      </div>
+                      <div className="delete-item-button" onClick={close}>
+                        <div className="overlap-group">
+                          <img className="delete-icon" alt="Delete icon" src="/img/delete-icon.svg"/>
+                          <div className="text-wrapper">Delete Item</div>
+                        </div>
+                      </div>
+                      <div className="item-availability">
+                        <div className="div">Availability</div>
+                        <p className="target-mi-away">
+                          <span className="span">Target: </span>
+                          <span className="text-wrapper-2">3 mi. away | </span>
+                          <span className="text-wrapper-3">Online</span>
+                        </p>
+                        <p className="walmart-mi-away">
+                          <span className="span">Walmart: </span>
+                          <span className="text-wrapper-2">8.6 mi. away | </span>
+                          <span className="text-wrapper-3">Online</span>
+                        </p>
+                        <p className="amazon-link">
+                          <span className="span">Amazon:</span>
+                          <span className="text-wrapper-2">&nbsp;</span>
+                          <span className="text-wrapper-3">Link</span>
+                        </p>
+                      </div>
+                      <p className="purchase-preference">
+                        <span className="text-wrapper-4">Purchase Preference: </span>
+                        <span className="text-wrapper-5">In-person</span>
+                      </p>
+                      <img className="close-button" alt="Close button" src="/img/close-button.svg" onClick={close}/>
+                      <div className="header">Blender</div>
+                    </div>
+                  )}
+                </Popup>
+                
                 <img className="circle" alt="Circle" src="/img/circle.png" />
               </div>
               <div className="checklist-item-13">
@@ -98,7 +235,37 @@ export const PrototypePurchase = () => {
             <img className="view-more-button-2" alt="View more button" src="/img/view-more-button.svg" />
             <div className="text-wrapper-6">Kitchen</div>
           </div>
-          <div className="add-item-2">Add item &gt;</div>
+          <Popup trigger={<div className="add-item-2">Add item &gt;</div>} modal nested contentStyle={{width: '393px'}}>
+            {close => (
+              <div className="adding-new-item">
+                <div className="add-item-button">
+                  <img className="icon-text" alt="Icon text" src="/img/icon-text.png" onClick={close}/>
+                </div>
+                <div className="purchase-preference">
+                  <div className="text-wrapper">Purchase Preference</div>
+                  <div className="overlap-group">
+                    <div className="div">Online</div>
+                    <div className="text-wrapper-2">In-Person</div>
+                    <img className="dividing-line" alt="Dividing line" src="/img/dividing-line.svg" />
+                  </div>
+                </div>
+                <div className="link-to-item">
+                  <div className="text-wrapper">Link to Item</div>
+                  <div className="div-2" />
+                </div>
+                <div className="item-entry">
+                  <p className="item">
+                    <span className="span">Item </span>
+                    <span className="text-wrapper-3">*</span>
+                  </p>
+                  <input className="div-2" type="text" value={kitchenItem} onChange={(e) => setKitchenItem(e.target.value)}/>
+                </div>
+                <img className="close-button" alt="Close button" src="/img/close-button.svg" onClick={close}/>
+                <div className="text-wrapper-4">Add New Item</div>
+              </div>
+            )}
+          </Popup>
+          
         </div>
       </div>
       <header className="header">
