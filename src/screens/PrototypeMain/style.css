@@ -266,7 +266,7 @@
 .prototype-main .event-description-wrapper {
   background-color: #9593d480;
   border-radius: 15px;
-  height: 41px;
+  height: 45px;
   position: relative;
   width: 272px;
 }
@@ -309,7 +309,7 @@
 .prototype-main .div-wrapper {
   background-color: #396b3e66;
   border-radius: 15px;
-  height: 41px;
+  height: 45px;
   position: relative;
   width: 272px;
 }
@@ -662,7 +662,7 @@
 }
 
 .prototype-main .logo {
-  box-shadow: inset 0px 4px 4px #00000040;
+  /* box-shadow: inset 0px 4px 4px #00000040; */
   height: 47px;
   left: 93px;
   position: absolute;
